@@ -15,6 +15,8 @@ import com.klt.githubactionstest.ui.theme.GithubActionsTestTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
         setContent {
             GithubActionsTestTheme {
                 // A surface container using the 'background' color from the theme
